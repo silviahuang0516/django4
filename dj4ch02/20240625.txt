@@ -1,0 +1,13 @@
+在 Windows 上安裝虛擬環境:
+
+pip install virtualenv
+
+virtualenv --version
+
+virtualenv venv_dj4ch02
+
+使用內建 venv 模組
+python -m venv venv_dj4ch02
+
+在 Windows 上刪除虛擬環境
+rmdir venv_dj4ch02
