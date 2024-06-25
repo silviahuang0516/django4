@@ -9,5 +9,19 @@ virtualenv venv_dj4ch02
 使用內建 venv 模組
 python -m venv venv_dj4ch02
 
+
+//===========================
 在 Windows 上刪除虛擬環境
 rmdir venv_dj4ch02
+
+
+//===========================
+將檔案上Git
+1. git init
+2. git add .
+3. git commit -m "dj4ch02"
+4. git branch -M main
+5. git remote add origin https://github.com/silviahuang0516/django4.git
+(第4, 5點在第一次做就會建好連網, 所以只做第一次就好)
+6. git push -u origin main
+
